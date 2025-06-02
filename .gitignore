@@ -27,4 +27,8 @@ Thumbs.db
 
 # Chrome extension
 *.crx
-*.pem 
+*.pem
+
+# Requirements and private documents
+要件定義.md
+requirements.md 
