@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Redash YAML Exporter",
+  "version": "1.0.0",
+  "description": "Export Redash dashboard queries to YAML format",
+  "icons": {
+    "16": "icons/icon.svg",
+    "32": "icons/icon.svg",
+    "48": "icons/icon.svg",
+    "128": "icons/icon.svg"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:*/dashboards/*",
+    "https://*.redash.io/dashboards/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:*/dashboards/*",
+        "https://*.redash.io/dashboards/*"
+      ],
+      "js": ["dist/content/dashboard.js"],
+      "css": ["src/styles/content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "dist/background/background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/styles/content.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 

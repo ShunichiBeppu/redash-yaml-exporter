@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#4F46E5" stroke="#312E81" stroke-width="2"/>
+  
+  <!-- Document icon -->
+  <rect x="32" y="28" width="48" height="64" rx="4" fill="white"/>
+  <rect x="32" y="28" width="48" height="8" rx="4" fill="#E5E7EB"/>
+  
+  <!-- Text lines representing YAML -->
+  <line x1="38" y1="44" x2="58" y2="44" stroke="#6B7280" stroke-width="2"/>
+  <line x1="42" y1="52" x2="66" y2="52" stroke="#6B7280" stroke-width="2"/>
+  <line x1="42" y1="60" x2="62" y2="60" stroke="#6B7280" stroke-width="2"/>
+  <line x1="38" y1="68" x2="70" y2="68" stroke="#6B7280" stroke-width="2"/>
+  <line x1="42" y1="76" x2="58" y2="76" stroke="#6B7280" stroke-width="2"/>
+  
+  <!-- Download arrow -->
+  <g transform="translate(84, 84)">
+    <circle cx="0" cy="0" r="18" fill="#10B981"/>
+    <path d="M-8,-4 L0,8 L8,-4" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="-8" x2="0" y2="4" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg> 
