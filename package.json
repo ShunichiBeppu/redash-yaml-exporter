@@ -25,6 +25,6 @@
     "ts-loader": "^9.4.0"
   },
   "keywords": ["chrome-extension", "redash", "yaml", "export"],
-  "author": "Your Name",
+  "author": "Shunichi Beppu",
   "license": "MIT"
 } 
