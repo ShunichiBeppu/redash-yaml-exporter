@@ -16,7 +16,7 @@ RedashダッシュボードのクエリをYAML形式でエクスポートするC
 
 1. **リポジトリをクローン**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ShunichiBeppu/redash-yaml-exporter
    cd redash-yaml-exporter
    ```
 
